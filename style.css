@@ -1,0 +1,55 @@
+@font-face{font-family:"sintony";font-style:normal;font-weight:normal;src:url("http://ds.dibiakcom.net/font/sintony/Sintony-Regular.ttf")format("truetype");}
+@font-face{font-family:"fontawesome";font-style:normal;font-weight:normal;src:url("http://ds.dibiakcom.net/font/awesome/fontawesome-webfont.eot")format("eot"),url("http://ds.dibiakcom.net/font/awesome/fontawesome-webfont.woff")format("woff"),url("http://ds.dibiakcom.net/font/awesome/fontawesome-webfont.svg")format("svg"),url("http://ds.dibiakcom.net/font/awesome/fontawesome-webfont.ttf")format("truetype");}
+
+body { padding: 1em; }
+
+ul.tabmenu { font-family: "Tahoma"; font-size: 11px; }
+ul.tabmenu  li { display: inline-block; width: 100px; background: #000; color: #fff; padding: 1px 5px; }
+ul.tabmenu li:first-child {  margin-left: 10px; }
+ul.tabmenu a { display: block; text-align: left; height: 28px; line-height: 28px; }
+ul.tabmenu { border-bottom: 1px solid #000; }
+
+a.refresh { float: right; font-family: "Tahoma"; font-size: 11px; text-transform: capitalize;  display: block; border: 1px solid #ddd; padding: 1px 4px; }
+a.refresh .icon { padding-right: 8px; }
+span.notice { background: #c11; color: #fff; padding: 0 5px; font-size: .8em; line-height: 20px; height: 20px; display: block; float: right;
+text-align: center; font-weight: 600; margin: -3px 2px 2px 0;}
+
+h2 { color: #345; margin: 1em 0 .5em 0; font-weight: 600; font-family: "sintony"; font-size: 28px; }
+
+#wcu_table { font-family: "sintony"; font-size: 14px; line-height: 28px; width: 100%;
+border: 1px solid #f0f0f0; border-top: none; border-bottom: 2px solid #f0f0f0; }
+#wcu_table div.line {  padding: .2em 0;
+background: rgb(188,188,188);
+background: -moz-linear-gradient(top,  rgba(188,188,188,1) 0%, rgba(255,255,255,1) 3%, rgba(249,249,249,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(188,188,188,1)), color-stop(3%,rgba(255,255,255,1)), color-stop(100%,rgba(249,249,249,1)));
+background: -webkit-linear-gradient(top,  rgba(188,188,188,1) 0%,rgba(255,255,255,1) 3%,rgba(249,249,249,1) 100%);
+background: -o-linear-gradient(top,  rgba(188,188,188,1) 0%,rgba(255,255,255,1) 3%,rgba(249,249,249,1) 100%);
+background: -ms-linear-gradient(top,  rgba(188,188,188,1) 0%,rgba(255,255,255,1) 3%,rgba(249,249,249,1) 100%);
+background: linear-gradient(to bottom,  rgba(188,188,188,1) 0%,rgba(255,255,255,1) 3%,rgba(249,249,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#f9f9f9',GradientType=0 );
+}
+
+#wcu_table span { float: left; display: block; text-align: center; border-right: 1px dotted #ccc}
+
+#wcu_table span.name { font-weight: 600; width: 8%; text-align: left; padding-left: .5%; border: none; cursor:pointer}
+#wcu_table span.icn-opsi { width: 24px; padding-right: .5%; margin-top: 5px; border-right: 1px dotted #ccc; }
+#wcu_table span.lock { color: #900 }
+#wcu_table span.idle   { color: #333 }
+#wcu_table span.used  { color: #369 }
+
+#wcu_table span.usage,
+#wcu_table span.act,
+#wcu_table span.since { padding: 0 .5%; width: 18%; border: none; }
+#wcu_table span.ip { padding: 0 .5%; width: 14%; border: none; text-align: left }
+
+#wcu_table span.act { border-right: 1px dotted #ccc; }
+#wcu_table div.head  span { font-weight: 600; color: #666; font-size: .8em }
+
+#wcu_table span.duit { border: none; padding: 0 .5%; text-align: right; width: 12%}
+#wcu_table span.fw { color: #009; }
+
+a.idle   { color: #333 }
+a.used   { color: #369 }
+a.lock   { color: #900 }
+a.offl   { color: #ddd }
+
